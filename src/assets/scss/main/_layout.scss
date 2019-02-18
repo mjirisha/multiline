@@ -1,0 +1,28 @@
+.header{
+  background: $grey-bg;
+  padding: 5vh 0;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+
+  &-main{
+    padding: 5vh 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &-single{
+    margin-top: 5vh;
+  }
+}
+
+.center{
+  text-align: center;
+}
+
+.flex-center{
+  margin-left: auto;
+  margin-right: auto;
+}

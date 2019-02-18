@@ -1,0 +1,29 @@
+.input{
+  padding: 0.5rem 1rem;
+  width: 40%;
+  min-width: 200px;
+  max-width: 500px;
+}
+
+.character{
+  color: black;
+  width: 30%;
+  background: white;
+  box-shadow: 0 0 10px $shadow;
+  margin-bottom: 3vh;
+  padding: 1vh 5%;
+  text-align: center;
+  transition: 0.5s;
+
+  &:not(:nth-child(3n)){
+    margin-right: 5%;
+  }
+
+  &:not(.character-single):hover{
+    box-shadow: 0 0 10px $shadow-hover;
+  }
+
+  &-single{
+    width: 100%;
+  }
+}
